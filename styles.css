@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 body {
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
@@ -9,11 +11,27 @@ div {
     text-align: center;
     background-color: white;
     border-radius: 20px;
+    width: 450px;
+    height: 650px;
 }
 
 #qr-code {
     width: 400px;
     height: 400px;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
+}
+
+#first {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0 30px 0px 30px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#second {
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 20px;
 }
